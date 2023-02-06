@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator!!</title>
+    <link rel="stylesheet" href="calsi.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="display">
+            <input type="text" id="screen" placeholder="0">
+
+        </div>
+        <div class="btns">
+            <div class="row">
+                <button onclick="del()" id="CE">CE</button>
+                <button onclick="fact()">X!</button>
+                <button class="btn">(</button>
+                <button class="btn">)</button>
+                <button class="btn">%</button>
+                <button onclick="screen.value= ''" id="AC">AC</button>
+
+            </div>
+            <div class="row">
+                <button onclick="sin()">Sin</button>
+                <button onclick="pi()">pi</button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">+</button>
+
+            </div>
+            <div class="row">
+                <button onclick="cos()">Cos</button>
+                <button onclick="log()">log</button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">X</button>
+
+            </div>
+            <div class="row">
+                <button onclick="tan()">tan</button>
+                <button onclick="sqrt()">root</button>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn">-</button>
+
+            </div>
+            <div class="row">
+                <button onclick="e()">e</button>
+                <button onclick="pow()">x^y</button>
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button id="equal" onclick=evalute()>=</button>
+                <button class="btn">/</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="C:\Users\ASUS\Desktop\webpages\Calculator\calsi.js" charset="utf-8">  </script>
+</body>
+
+</html>
